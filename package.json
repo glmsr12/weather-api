@@ -1,5 +1,5 @@
 {
-  "homepage": "git@github.com:glmsr12/weather-app2.git",
+  "homepage": "git@github.com:glmsr12/weather-app2.git/",
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
